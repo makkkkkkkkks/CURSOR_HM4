@@ -1,14 +1,10 @@
 package shape;
 
-import geometryInterface.AreaMeasurable;
-import geometryInterface.VolumeMeasurable;
-import point.Point;
 import point.Point3D;
 
 import java.util.Collections;
-import java.util.List;
 
-public class Sphere extends Shape implements AreaMeasurable, VolumeMeasurable {
+public class Sphere extends SpaceShape {
     private double radius;
     private Point3D center;
 

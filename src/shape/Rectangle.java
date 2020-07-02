@@ -1,7 +1,5 @@
 package shape;
 
-import geometryInterface.AreaMeasurable;
-import geometryInterface.PerimeterMeasurable;
 import point.Point;
 import point.Point2D;
 
@@ -9,12 +7,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Rectangle extends Shape implements PerimeterMeasurable, AreaMeasurable {
+public class Rectangle extends PlaneShape {
     private Point2D point2D;
     private double width;
     private double height;
 
-    public Rectangle( Point2D point2D, double width, double height) {
+    public Rectangle(Point2D point2D, double width, double height) {
         super(new ArrayList<>(Collections.singletonList(point2D)));
         this.point2D = point2D;
         this.width = width;
@@ -38,7 +36,7 @@ public class Rectangle extends Shape implements PerimeterMeasurable, AreaMeasura
 
     @Override
     public double getPerimeter() {
-        return 2*(width+height);
+        return 2 * (width + height);
     }
 
     @Override

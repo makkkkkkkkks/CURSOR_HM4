@@ -1,11 +1,10 @@
 package shape;
 
-import geometryInterface.AreaMeasurable;
-import geometryInterface.VolumeMeasurable;
 import point.Point3D;
+
 import java.util.Arrays;
 
-public class SquarePyramid extends Shape implements AreaMeasurable, VolumeMeasurable {
+public class SquarePyramid extends SpaceShape {
     private double baseWidth;
     private double pyramidHeight;
 

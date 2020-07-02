@@ -1,7 +1,5 @@
 package shape;
 
-import geometryInterface.AreaMeasurable;
-import geometryInterface.VolumeMeasurable;
 import point.Point;
 import point.Point3D;
 
@@ -9,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Cuboid extends Shape implements AreaMeasurable, VolumeMeasurable {
+public class Cuboid extends SpaceShape {
     private Point3D point3D;
     private double width;
     private double height;

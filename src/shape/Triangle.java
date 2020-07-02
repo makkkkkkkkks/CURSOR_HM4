@@ -1,13 +1,11 @@
 package shape;
 
-import geometryInterface.AreaMeasurable;
-import geometryInterface.PerimeterMeasurable;
 import point.Point2D;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Triangle extends Shape implements PerimeterMeasurable, AreaMeasurable {
+public class Triangle extends PlaneShape {
     private Point2D point2Da;
     private Point2D point2Db;
     private Point2D point2Dc;

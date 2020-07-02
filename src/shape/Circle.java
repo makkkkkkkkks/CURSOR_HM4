@@ -1,15 +1,11 @@
 package shape;
 
-import geometryInterface.AreaMeasurable;
-import geometryInterface.PerimeterMeasurable;
-import point.Point;
 import point.Point2D;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
-public class Circle extends Shape implements AreaMeasurable, PerimeterMeasurable {
+public class Circle extends PlaneShape {
     private Point2D center;
     private double radius;
 
@@ -18,6 +14,7 @@ public class Circle extends Shape implements AreaMeasurable, PerimeterMeasurable
         this.center = center;
         this.radius = radius;
     }
+
     @Override
     public double getArea() {
         return Math.PI * (this.radius * this.radius);
