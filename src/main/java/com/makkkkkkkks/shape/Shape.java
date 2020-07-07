@@ -1,6 +1,6 @@
-package shape;
+package main.java.com.makkkkkkkks.shape;
 
-import point.Point;
+import main.java.com.makkkkkkkks.point.Point;
 
 import java.util.List;
 

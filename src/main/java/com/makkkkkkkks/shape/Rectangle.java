@@ -1,7 +1,7 @@
-package shape;
+package main.java.com.makkkkkkkks.shape;
 
-import point.Point;
-import point.Point2D;
+import main.java.com.makkkkkkkks.point.Point;
+import main.java.com.makkkkkkkks.point.Point2D;
 
 import java.util.ArrayList;
 import java.util.Collections;

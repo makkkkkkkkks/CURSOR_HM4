@@ -1,6 +1,8 @@
-import point.Point2D;
-import point.Point3D;
-import shape.*;
+package main.java.com.makkkkkkkks;
+
+import main.java.com.makkkkkkkks.point.Point2D;
+import main.java.com.makkkkkkkks.point.Point3D;
+import main.java.com.makkkkkkkks.shape.*;
 import java.util.ArrayList;
 import java.util.List;
 
